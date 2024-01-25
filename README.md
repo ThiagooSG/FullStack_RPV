@@ -10,13 +10,13 @@ Exercícios praticados pela segunda turma do RPV ano 2023/2024.
 ## Módulos
 
 - [Lógica de Programação 2](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_230124)
-- [Front End](https://github.com/matiassingers/awesome-readme)
-- [Back End](https://github.com/matiassingers/awesome-readme)
+- [Front End](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/front_end)
+- [Back End](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/back_end)
 
 
 ## Lógica de Programação 2
 
-[Atividades 23/01](https://github.com/matiassingers/awesome-readme)
+[Atividades 23/01](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_230124)
 
 1 - Faça um programa que utilize dois números e verifique (usando if e else) e imprima o maior deles.
 
@@ -24,7 +24,7 @@ Exercícios praticados pela segunda turma do RPV ano 2023/2024.
 
 3 - Faça um programa para a leitura de duas notas parciais de um aluno. *A mensagem "Aprovado", se a média alcançada for maior ou igual a sete; *A mensagem "Aprovado com Distinção", se a média for igual a dez; *A mensagem "Reprovado" se a média for menor de do que sete.
 
-[Atividades 24/01](https://github.com/matiassingers/awesome-readme)
+[Atividades 24/01](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_240124)
 
 1 - Variáveis e tipos de dados: Escreva um programa que declare duas variáveis, “nome” e “idade”, e as imprima em um console em uma frase que diga "Olá, meu nome é [nome] e eu tenho [idade] anos".
 
