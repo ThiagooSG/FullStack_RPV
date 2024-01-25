@@ -9,7 +9,7 @@ Exercícios praticados pela segunda turma do RPV ano 2023/2024.
 
 ## Módulos
 
-- [Lógica de Programação 2](https://github.com/matiassingers/awesome-readme)
+- [Lógica de Programação 2](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_230124)
 - [Front End](https://github.com/matiassingers/awesome-readme)
 - [Back End](https://github.com/matiassingers/awesome-readme)
 
