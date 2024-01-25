@@ -1,5 +1,5 @@
 
-![Logo](https://raw.githubusercontent.com/ThiagooSG/img/6abb4df3b2349bb1d0241f34ace0a4a9c09034f1/Rio-POmba-Valley.png)
+<img src="https://raw.githubusercontent.com/ThiagooSG/img/6abb4df3b2349bb1d0241f34ace0a4a9c09034f1/Rio-POmba-Valley.png"/>
 
 
 # FullStack RPV
@@ -44,6 +44,6 @@ Exercícios praticados pela segunda turma do RPV ano 2023/2024.
 
 9 - Escreva um algoritmo que receba dois números reais e um código de seleção do usuário. Se o código digitado for 1, faça o algoritmo adicionar os dois números previamente digitados e mostrar o resultado; se o código de seleção for 2, os números deverão ser multiplicados; se o código de seleção for 3, o primeiro número deve ser dividido pelo segundo.
 
-[Atividades 25/01](https://github.com/matiassingers/awesome-readme)
+[Atividades 25/01](https://github.com/ThiagooSG)
 
 Em atividade...
