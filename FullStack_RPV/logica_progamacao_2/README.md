@@ -4,4 +4,4 @@
 
 [Atividades 24/01](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_240124)
 
-[Atividades 25/01](https://github.com/ThiagooSG)
+[Atividades 25/01](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_250124)

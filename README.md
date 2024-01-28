@@ -4,7 +4,7 @@
 
 # FullStack RPV
 
-Exercícios praticados pela segunda turma do RPV ano 2023/2024.
+Exercícios de programação praticados pela segunda turma do RPV ano 2023/2024.
 
 ## Módulos
 
