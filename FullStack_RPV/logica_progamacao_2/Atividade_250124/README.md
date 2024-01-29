@@ -21,7 +21,7 @@ identificador de sexo (“M” para Masculino ou “F” para Feminino) inserido
 fórmula para cada um dos dois casos está definida abaixo. Obs: O sistema deve permitir a 
 entrada do peso do usuário. Ao final informe a opção escolhida e informe o peso ideal (segundo a fórmula) para usuário.  
 **Caso "M", utilize a fórmula: 52 + (0.75 × (altura - 152.4))**  
-**Caso "F", utilize a fórmula: 52 + (0.67 × (altura - 152.4))**
+**Caso "F", utilize a fórmula: 52 + (0.67 × (altura - 152.4))**  
 **Peso ideal ajustado (Peso Atual (kg) - Peso Ideal (kg)) x 0,25 + Peso Ideal (kg)**  
 Fonte: [Medical Suite Einstein](https://medicalsuite.einstein.br/Servicos/Paginas/calculadora-pesoIdealajustado.aspx)
 
