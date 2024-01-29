@@ -20,8 +20,10 @@ disponíveis.
 identificador de sexo (“M” para Masculino ou “F” para Feminino) inserido pelo mesmo. A 
 fórmula para cada um dos dois casos está definida abaixo. Obs: O sistema deve permitir a 
 entrada do peso do usuário. Ao final informe a opção escolhida e informe o peso ideal (segundo a fórmula) para usuário.  
-**Caso "M", utilize a fórmula: (peso -100) * 0.9**  
-**Caso "F", utilize a fórmula: (peso - 100) * 0.85**
+**Caso "M", utilize a fórmula: 52 + (0.75 × (altura - 152.4))**  
+**Caso "F", utilize a fórmula: 52 + (0.67 × (altura - 152.4))**
+**Peso ideal ajustado (Peso Atual (kg) - Peso Ideal (kg)) x 0,25 + Peso Ideal (kg)**  
+Fonte: [Medical Suite Einstein](https://medicalsuite.einstein.br/Servicos/Paginas/calculadora-pesoIdealajustado.aspx)
 
 4. Uma loja fornece 10% de desconto para funcionários e 5% de desconto para clientes vips. 
 Faça um programa que calcule o valor total a ser pago por uma pessoa. O programa deverá ler o valor total da compra efetuada e um código que identifique se o comprador é um **cliente comum (1)**, **funcionário (2)** ou **vip (3)**.

@@ -2,21 +2,26 @@ console.clear();
 const promptSync = require('prompt-sync');
 const prompt = promptSync();
 
-let pesoIdeal;
+let pesoIdeal, peso, opcao, altura, pesoIdealAjustado;
 
 console.log('Calculo do "Peso Ideal"');
 
-let peso = Number(prompt("Primeiramente digite o seu peso: "));
+peso = Number(prompt("Primeiramente digite o seu peso: "));
+altura = Number(prompt("Agora informe sua altura em centimetros: "))
 
-let opcao = prompt('Agora escolha "M" para Masculino ou "F" para Feminino: ').toUpperCase();
+opcao = prompt('Agora escolha "M" para Masculino ou "F" para Feminino: ').toUpperCase();
 switch(opcao) {
     case 'M':
-        pesoIdeal = (peso - 100) * 0.9;
-        console.log(`O peso ideal é: ${pesoIdeal}`);
+        pesoIdeal = 52 + (0.75 * (altura - 152.4));
+        pesoIdealAjustado = (peso - pesoIdeal) * 0.25 + pesoIdeal;
+        console.log(`O peso ideal é: ${pesoIdeal.toFixed(2)} kg`);
+        console.log(`O seu peso ideal ajustado é: ${pesoIdealAjustado.toFixed(2)} kg`)
         break
     case 'F':
-        pesoIdeal = (peso - 100) * 0.85;
-        console.log(`O peso ideal é: ${pesoIdeal}`);
+        pesoIdeal = 49 + (0.67 * (altura - 152.4));
+        pesoIdealAjustado = (peso - pesoIdeal) * 0.25 + pesoIdeal;
+        console.log(`O peso ideal é: ${pesoIdeal.toFixed(2)} kg`);
+        console.log(`O seu peso ideal ajustado é: ${pesoIdealAjustado.toFixed(2)} kg`)
         break
     default :
         console.log("Escolha inválida, refaça o processo!")
