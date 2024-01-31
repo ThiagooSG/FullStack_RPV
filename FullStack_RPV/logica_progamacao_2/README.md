@@ -7,3 +7,5 @@
 [Atividades 25/01](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_250124)
 
 [Atividades 30/01](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_300124)
+
+[Atividades 31/01](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_310124)
