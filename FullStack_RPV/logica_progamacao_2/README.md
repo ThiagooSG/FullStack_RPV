@@ -12,4 +12,4 @@
 
 [Atividades2 31/01](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade2_310124)
 
-[Atividades2 01/02](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_pratica_010224)
+[Atividade Prática Presencial 01/02](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/logica_progamacao_2/Atividade_pratica_presencial_010224)
