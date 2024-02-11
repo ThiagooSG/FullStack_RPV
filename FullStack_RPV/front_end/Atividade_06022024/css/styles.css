@@ -1,54 +1,149 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+html {
+  background-color: #d6d4dc;
+  background-color: #817e8b;
+  background-color: #231f36;
+
 }
 
-h1 {
-    color: #333;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-h2 {
-    color: #666;
-    font-size: 1.5em;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-}
-
-p, li {
-    color: #777;
-    line-height: 1.6;
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #d6d4dc;
+  box-shadow: 0px 0px 8px 2px #000000;
+  padding: 16px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #231f36;
 }
 
 a {
-    color: #3498db;
-    text-decoration: none;
+  margin-right: 10px;
+}
+
+section {
+  margin: auto;
+  width: 800px;
+}
+.minha-foto {
+  border-radius: 50%;
+  width: 150px;
+  height: 160px;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.sobre-mim,
+.lista-habilidades,
+.atividades {
+  margin-left: 25px;
+  text-align: justify;
+  background-color: #231f36;
+  color: white;
+  padding: 26px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+summary {
+  all: unset;
+}
+
+.summary-title:after {
+  background: black;
+  content: "+";
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+  left: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.experiencias[open] .summary-title:after {
+  content: "-";
+  cursor: pointer;
+}
+.qualificacoes[open] .summary-title:after {
+  content: "-";
+  cursor: pointer;
+}
+.hard-skills[open] .summary-title:after {
+  content: "-";
+  cursor: pointer;
+}
+
+.summary-subtitle:after {
+  background: black;
+  content: "+";
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+  left: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.hard-skill[open] .summary-subtitle:after {
+  content: "-";
+  cursor: pointer;
+}
+
+.experiencias,
+.qualificacoes,
+.hard-skills,
+.habilidades,
+.atividade-extra,
+.h2-sobre-mim {
+  padding: 16px;
+  color: rgb(255 255 255);
+  background: rgb(16 28 34);
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.experiencia,
+.qualificacao,
+.hard-skill {
+  background-color: #231f36;
+  color: white;
+  margin: 10px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  color: rgb(255 255 255);
+  background: rgb(16 28 34);
+  border-radius: 5px;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  padding-bottom: 16px;
+  font-size: 0.8rem;
 }
 
-ul li h3 {
-    color: #333;
-    font-size: 1.2em;
+li + li {
+  margin-top: 0.5rem;
 }
-
-ul li p {
-    margin-left: 20px;
-}
+ .experiencia a {
+  width: 10px;
+ }
