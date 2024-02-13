@@ -5,8 +5,6 @@ body {
 }
 
 html {
-  background-color: #d6d4dc;
-  background-color: #817e8b;
   background-color: #231f36;
 }
 
@@ -150,4 +148,109 @@ li + li {
 #copyright {
   text-align: center;
   margin: 50px;
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 1200px) {
+  section {
+    width: 800px;
+  }
+}
+
+/* Estilos para telas médias */
+@media (min-width: 768px) and (max-width: 1199px) {
+  section {
+    width: 768px;
+  }
+  .sobre-mim,
+  .lista-habilidades,
+  .atividades {
+    margin-left: 25px;
+    padding: 26px;
+  }
+  .experiencias,
+  .qualificacoes,
+  .hard-skills,
+  .habilidades,
+  .atividade-extra,
+  .h2-sobre-mim {
+    padding: 16px;
+  }
+  .experiencia,
+  .qualificacao,
+  .hard-skill {
+    margin: 10px;
+    padding: 16px;
+  }
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 767px) {
+  section {
+    width: auto;
+  }
+  .minha-foto {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0px 0px 8px 2px #000000;
+    position: absolute;
+  }
+  .cabecalho {
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+  }
+  .dados {
+    margin-top: 130px;
+  }
+  .sobre-mim,
+  .lista-habilidades,
+  .atividades {
+    padding: 16px;
+    font-size: 12px;
+    margin: auto;
+  }
+  .experiencias,
+  .qualificacoes,
+  .hard-skills,
+  .habilidades,
+  .atividade-extra,
+  .h2-sobre-mim {
+    padding: 16px;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 450px) {
+    section {
+      width: auto;
+    }
+    .cabecalho {
+      margin-right: 30px;
+    }
+
+    .dados {
+      margin-top: 130px;
+      font-size: small;
+    }
+    .experiencias,
+    .qualificacoes,
+    .hard-skills {
+      font-size: 11px;
+    }
+    .h2-sobre-mim,
+    .habilidades,
+    .atividade-extra {
+      font-size: 15px;
+    }
+    .experiencias,
+    .qualificacoes,
+    .hard-skills,
+    .habilidades,
+    .atividade-extra,
+    .h2-sobre-mim {
+      padding: 16px;
+    }
+  }
 }
