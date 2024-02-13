@@ -8,7 +8,6 @@ html {
   background-color: #d6d4dc;
   background-color: #817e8b;
   background-color: #231f36;
-
 }
 
 header {
@@ -144,6 +143,11 @@ ul {
 li + li {
   margin-top: 0.5rem;
 }
- .experiencia a {
+.experiencia a {
   width: 10px;
- }
+}
+
+#copyright {
+  text-align: center;
+  margin: 50px;
+}
