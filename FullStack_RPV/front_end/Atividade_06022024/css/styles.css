@@ -205,6 +205,9 @@ li + li {
   .dados {
     margin-top: 130px;
   }
+  .media {
+    margin-left: 15px
+  }
   .sobre-mim,
   .lista-habilidades,
   .atividades {
@@ -232,6 +235,10 @@ li + li {
     .dados {
       margin-top: 130px;
       font-size: small;
+    }
+
+    .media {
+      margin-left: 15px
     }
     .experiencias,
     .qualificacoes,
