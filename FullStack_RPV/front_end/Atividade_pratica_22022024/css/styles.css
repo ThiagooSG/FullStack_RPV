@@ -5,11 +5,11 @@ body {
 }
 .pagina{
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 .logotipo {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 1px #000000;
 }
@@ -34,7 +34,7 @@ body {
     width: 0%;
   }
   to {
-    width: 17%;
+    width: 80%;
   }
 }
 @keyframes blink {
@@ -46,11 +46,21 @@ body {
   }
 }
 
-.header .topo .navegacao {
+.header {
   display: flex;
-  text-align: end;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.topo_end {
+  margin-left: auto;
+}
+.navegacao a {
   text-decoration: none;
-  background-color: aqua;
+  margin-right: 30px;
+  color: #000000;
+  font-weight: 700;
 }
 .chamadas {
     text-align: center;
@@ -79,22 +89,46 @@ strong {
 
 .ia_1, .ia_2, .ia_3 {
   display: flex;
-  gap: 100px;
-}
-.icones {
-  width: 180px;
-  border-radius: 15px;
-  padding: 10px;
+  gap: 60px;
+  margin-bottom: 20px;
 }
 .ia {
-  width: 400px;
-  height: 400px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  height: 500px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 10px 0.2px #000000;
+  border-radius: 5px;
+}
+.ia h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px;
+}
+.ia p {
   padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  text-align: center;
+}
+.icones {
+  margin: 0 auto;
+  width: 100px;
+  border-radius: 17px;
+  padding: 10px;
+  align-content: center;
+}
+.link {
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+.link button {
+  cursor: pointer;
+  background-color: rgb(146, 146, 146);
+  border: none;
+  color: white;
+  border-radius: 5px;
 }
 .rodape {
   display: flex;
@@ -102,6 +136,12 @@ strong {
   gap: 60px;
   justify-content: center;
   margin: 100px 0px 30px 0px;
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 0px 10px 0.2px #000000;
+  border-radius: 5px;
 }
 .social {
   width: 15px;
