@@ -9,3 +9,5 @@
 [Atividade 22/02](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/front_end/Atividade_pratica_22022024)
 
 [Atividade 04/03](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/front_end/Atividade_04032024)
+
+[Atividade 06/03](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/front_end/Atividade_06032024)
