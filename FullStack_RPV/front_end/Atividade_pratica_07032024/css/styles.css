@@ -1,19 +1,19 @@
 body {
-  margin: auto;
-  width: 1000px;
-  padding: 0;
-  box-sizing: border-box;
   font-family: Arial, sans-serif;
+  margin: auto;
+  width: 800px;
+  height: 100%;
 }
 
 .header {
+  width: 100%;
   height: 40px;
   background-color: rgb(187, 187, 255);
   margin-top: 10px;
   text-align: center;
 }
 
-.conteudo {
+.pagina {
   display: flex;
 }
 
@@ -21,74 +21,85 @@ body {
   width: 200px;
   height: 600px;
   background-color: rgb(245, 245, 94);
-  padding: 20px;
 }
 
-main {
-  background-color: rgb(255, 255, 255);
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagens {
+  margin: auto;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
+  gap: 10px;
   justify-content: center;
-  padding: 0.5px;
+  align-items: center;
+}
+.image {
+  width: 150px;
+  border: solid;
+  border-radius: 40px;
+  padding: 10px;
 }
 
-aside {
+#java {
+  height: 150px;
+}
+
+.related_links {
   width: 200px;
   height: 600px;
   background-color: rgb(246, 147, 255);
-  padding: 20px;
-}
 
-footer {
+}
+.footer {
+  width: 100%;
   height: 40px;
   background-color: rgb(144, 255, 129);
   text-align: center;
 }
 
-.image {
-  width: 200px;
-  border: solid;
-  border-radius: 40px;
-  padding: 10px;
-}
-#java {
-  height: 200px;
-}
-
-@media screen and (max-width: 768px) {
-  .conteudo {
+@media (max-width: 768px) {
+  body {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  .pagina {
     display: flex;
     flex-direction: column;
-    width: auto;
   }
   .header {
     height: 60px;
   }
   .navbar {
-    height: 20px;
+    height: 30px;
     width: auto;
   }
   .main {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    flex-direction: column;
+    align-items: center;
   }
-
+  .imagens {
+    justify-content: center;
+    align-items: center;
+  }
   .image {
-    width: 150px;
+    width: 100px;
   }
   #java {
-    height: 150px;
+    height: 100px;
   }
   .related_links {
-    height: 20px;
+    height: 30px;
     width: auto;
   }
-  footer {
+  .footer {
     height: 60px;
   }
+
 }
