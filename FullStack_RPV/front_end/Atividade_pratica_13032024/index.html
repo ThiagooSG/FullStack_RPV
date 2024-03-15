@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvA - Tecnologia da Informação</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="logo cafeteria"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accordionPanelsStayOpenExample">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Digite algo..." aria-label="Search">
+                <button type="button" class="btn btn-outline-primary">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <header id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="100">
+                <img src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?q=80&w=2078&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100" alt="café">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>A melhor experiência tecnológica</h5>
+                    <p>Você vai usufruir de um serviço pensado na sua empresa.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="200">
+                <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100" alt="café">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Quer desenvolver algo?</h5>
+                    <p>Lhe proporcionamos as melhores profissionais.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="300">
+                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100" alt="café">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Precisa hospedar seu serviço?</h5>
+                    <p>Deixe nossa consultoria lhe indicar o melhor por um preço justo.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </header>
+
+    <figure class="figure">
+        <blockquote class="blockquote">
+            <h3 class="fw-lighter text-center mt-5">Atualmente, a Tecnologia da Informação é parte integrante da estratégia das empresas, exigindo qualidade para melhorar os processos, potencializar a produtividade e aumentar a lucratividade.</h3>
+        </blockquote>
+        <figcaption class="blockquote-footer fw-lighter text-center">
+            Robert Ryan <cite title="Source Title"> CEO IBM</cite>
+        </figcaption>
+    </figure>
+
+    <section>
+        <div class="accordion serv_menu" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Desenvolvimento
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body menu_service">
+                  <strong>Na AvA Tech, nós transformamos ideias em realidade através de soluções de software personalizadas e inovadoras.</strong> Com uma equipe de desenvolvedores altamente qualificados e experientes, nós nos dedicamos a fornecer produtos de alta qualidade que atendem às suas necessidades específicas.
+                  <h6>Por que escolher a AvA Tech?</h6>
+                  <ul>
+                    <li>Experiência: Com anos de experiência no setor, temos um histórico comprovado de entrega de soluções de software eficazes e eficientes.</li>
+                    <li>Inovação: Estamos sempre na vanguarda das tecnologias e práticas mais recentes, garantindo que você receba as soluções mais avançadas disponíveis.</li>
+                    <li>Personalização: Entendemos que cada negócio é único. Por isso, oferecemos soluções personalizadas que se alinham perfeitamente com os seus objetivos de negócios.</li>
+                    <li>Suporte: Nossa equipe de suporte está sempre pronta para ajudar. Oferecemos suporte contínuo para garantir que seu software continue funcionando sem problemas.</li>
+                  </ul>
+                  <strong>Escolha a AvA Tech</strong> para o seu próximo projeto de software e experimente a diferença que a verdadeira inovação pode fazer! Entre em contato conosco hoje mesmo para saber mais. Estamos ansiosos para trabalhar com você!
+                  <br>
+                  <br>
+                  <a class="btn btn-primary" href="#contato" role="button">Fale Conosco</a>
+                  <div class="card text-bg-dark box-img">
+                    <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                  Consultoria
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body menu_service">
+                  <strong>Nos da AvA Tech, nós nos dedicamos a ajudar empresas a superar seus desafios tecnológicos com soluções de TI estratégicas e personalizadas.</strong> Nossa equipe de consultores especializados está pronta para ajudá-lo a otimizar seus sistemas, melhorar a eficiência e impulsionar o crescimento do seu negócio.
+                  <h6>Por que escolher a AvA Tech?</h6>
+                  <ul>
+                    <li>Experiência: Com anos de experiência no setor de TI, temos um histórico comprovado de ajudar empresas a atingir seus objetivos tecnológicos.</li>
+                    <li>Estratégia: Nós não apenas resolvemos problemas de TI, mas também ajudamos você a planejar para o futuro com estratégias de TI que se alinham com seus objetivos de negócios.</li>
+                    <li>Personalização: Entendemos que cada empresa é única. Por isso, oferecemos soluções de consultoria de TI personalizadas que atendem às suas necessidades específicas.</li>
+                    <li>Suporte: Nossa equipe de suporte está sempre pronta para ajudar. Oferecemos suporte contínuo para garantir que seus sistemas de TI continuem funcionando sem problemas.</li>
+                  </ul>
+                  <strong>Escolha a AvA Tech</strong> para a sua próxima necessidade de consultoria de TI e experimente a diferença que a verdadeira parceria pode fazer! Entre em contato conosco hoje mesmo para saber mais. Estamos ansiosos para trabalhar com você!
+                  <br>
+                  <br>
+                  <a class="btn btn-primary" href="#contato" role="button">Fale Conosco</a>
+                  <div class="card text-bg-dark box-img">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                  Infraestrutura e Segurança
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body menu_service">
+                  <strong>Na AvA Tech, nós fornecemos soluções de infraestrutura de nuvem robustas e seguras, perfeitas para hospedagem de sites e serviços.</strong> Além disso, oferecemos um serviço premium de segurança cibernética para proteger seus dados e sistemas contra ameaças online.
+                  <h6>Por que escolher a AvA Tech?</h6>
+                  <ul>
+                    <li>Infraestrutura de Nuvem: Nossos serviços de nuvem são projetados para serem escaláveis, confiáveis e acessíveis. Seja para hospedar um site ou executar um serviço complexo, temos a infraestrutura que você precisa.</li>
+                    <li>Segurança Cibernética: Com nosso serviço premium de segurança cibernética, você pode ter certeza de que seus dados e sistemas estão protegidos. Nossa equipe de especialistas em segurança está sempre monitorando as ameaças mais recentes e trabalhando para manter você seguro.</li>
+                    <li>Experiência: Com anos de experiência no setor de tecnologia, temos um histórico comprovado de fornecimento de soluções de infraestrutura de nuvem e segurança cibernética de alta qualidade.</li>
+                    <li>Suporte: Nossa equipe de suporte está sempre pronta para ajudar. Oferecemos suporte contínuo para garantir que seus serviços continuem funcionando sem problemas.</li>
+                  </ul>
+                  <strong>Escolha a AvA Tech</strong> para a sua próxima necessidade de infraestrutura de nuvem e segurança cibernética e experimente a diferença que a verdadeira segurança e confiabilidade podem fazer! Entre em contato conosco hoje mesmo para saber mais. Estamos ansiosos para trabalhar com você!
+                  <br>
+                  <br>
+                  <a class="btn btn-primary" href="#contato" role="button">Fale Conosco</a>
+                  <div class="card text-bg-dark box-img">
+                    <img src="https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?q=80&w=1946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    </section>
+
+
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h3 class="section-subheading text-muted timeline_1" id="timeline">Nossa timeline.</h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/img/1.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2015-2017</h4>
+                            <h4 class="subheading">Nosso humilde começo</h4>
+                        </div>
+                        <div class="timeline-body"><p class="text-muted">Fundação da empresa, inicio desafiador tirando as ideias do papel e começando a atuar em três frentes: desenvolvimento de software, consultoria de TI e infraestrutura e segurança cibernética.</p></div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/img/2.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2017</h4>
+                            <h4 class="subheading">Expandindo</h4>
+                        </div>
+                        <div class="timeline-body"><p class="text-muted">Expansão para novos mercados, crescimento da equipe, reconhecimento por excelência em serviços e produtos devido a um trabalho ardua e bem desenvolvido em nossa base de atuação.</p></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/img/3.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2019</h4>
+                            <h4 class="subheading">Consolidação e Transição</h4>
+                        </div>
+                        <div class="timeline-body"><p class="text-muted">Consolidação como líder no setor de TI, investimento em pesquisa e desenvolvimento, fortalecimento da presença global. Transição para soluções de nuvem, parcerias estratégicas com líderes do setor, expansão da infraestrutura de nuvem.</p></div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/img/4.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2024</h4>
+                            <h4 class="subheading">Foguete não tem Ré</h4>
+                        </div>
+                        <div class="timeline-body"><p class="text-muted">Líder em segurança cibernética, com foco em Inteligência Artificial e aprendizado de máquina. Fortalecimento da consultoria de TI, investindo em tecnologias avançadas e expandindo a equipe para ajudar os clientes a alcançar seus objetivos de negócios.</p></div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <h4>
+                            Faça parte
+                            <br />
+                            da nossa
+                            <br />
+                            história!
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <div class="cliente">
+        <h4>Empresas Parceiras</h4>
+        <div class="container_clientes">
+            <div class="row align-items-center itens_clientes">
+                <div class="col-md-3 col-sm-6 my-3 logo_cliente">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/img/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3 logo_cliente">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/img/google.svg" alt="..." aria-label="Google Logo" /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3 logo_cliente">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/img/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3 logo_cliente">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="./assets/img/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                </div>
+            </div>
+         </div>
+    </div>
+    <section class="section_form" id="contato">
+        <div class="mb-3 form">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3 form">
+            <label for="exampleFormControlTextarea1" class="form-label">Sua dúvida</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </section>
+
+    <footer class="footer">
+        <img src="./img/coffee-logo.png" alt="">
+        <span>AvA Tech | Tecnologia para sua Empresa</span>
+        <a href=""><img class="wp" src="./assets/img/LogosWhatsappIcon.svg" alt="whatsapp"></a>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
