@@ -16,6 +16,6 @@
 
 [Atividade 13/03](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/front_end/Atividade_pratica_13032024)
 
-[Código da Aula 18/03](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/front_end/Codigo_aula_180324)
+[Código da Aula 18/03](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/front_end/Codigo_aula_18032024)
 
 [Atividade 18/03](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/front_end/Atividade_18032024)
