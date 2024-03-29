@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'roboto';
+    background-color: rgb(219, 219, 219);
+}
+
+.header {
+    background-color: rgb(163, 88, 233);
+    height: 5rem;
+    text-align: center;
+    align-content: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.link_menu {
+    text-decoration: none;
+    color: white;
+}

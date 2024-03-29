@@ -1,0 +1,10 @@
+.footer {
+    background-color: rgb(236, 162, 23);
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    font-weight: 700;
+}
