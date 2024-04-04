@@ -3,7 +3,7 @@ import styles from './components/App.module.css'
 import { Header } from "./components/Header"
 import { Sidebar } from './components/Sidebar'
 import { Posts } from './components/Posts'
-import { Comments } from './components/Comments'
+
 
 
 function App() {
@@ -20,9 +20,6 @@ function App() {
           <main>
             <Posts />
             <Posts />
-            <Comments />
-            <Comments />
-            <Comments />
 
           </main>
         </div>
