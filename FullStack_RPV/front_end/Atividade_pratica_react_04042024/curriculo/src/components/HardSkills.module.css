@@ -1,7 +1,14 @@
+.hardSkills {
+    text-align: center;
+    align-content: center;
+    height: 50rem;
+}
 .comments {
     margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .comments > img {

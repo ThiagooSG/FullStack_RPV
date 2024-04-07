@@ -1,16 +1,35 @@
-.header {
+
+.menu_links {
     background: var(--gray-800);
     display: flex;
-    justify-content: center;
-    padding: 1.25rem;
     height: 80px;
-    gap: 0.875rem;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    top: 0;
+    gap: 10rem;
+}
+.curriculo_react {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
 }
 
-.header img{
-    height: 2rem;
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 5rem;
 }
 
-.header strong{
-    padding-top: 6px;
+.link_menu {
+    color: var(--white);
+    text-decoration: none;
+}
+
+li .link_menu:hover {
+    background: var(--white);
+    color: var(--gray-900);
+    border-radius: 4px;
 }

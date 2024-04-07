@@ -27,7 +27,6 @@
 
 .profile strong {
     margin-top: 1rem;
-
     color: var(--gray-100);
     line-height: 1.6;
 }
@@ -43,6 +42,8 @@
     margin-top: 1.5rem;
     padding: 1.5rem 2rem 2rem;
     display: flex;
+    justify-content: center;
+
 }
 
 .sidebar footer a {
@@ -62,6 +63,7 @@
 }
 
 .sidebar footer a:hover {
-    background: var(--green-500);
+    background: var(--white);
     color: var(--white);
 }
+

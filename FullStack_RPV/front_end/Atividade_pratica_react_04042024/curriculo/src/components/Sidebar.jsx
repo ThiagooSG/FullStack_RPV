@@ -12,9 +12,9 @@ export function Sidebar () {
             </div>
 
             <footer>
-                <a href="#"><img src="https://api.iconify.design/logos:google-gmail.svg" alt="" /></a>
-                <a href="#"><img src="https://api.iconify.design/logos:linkedin-icon.svg" alt="" /></a>
-                <a href="#"><img src="https://api.iconify.design/logos:whatsapp-icon.svg" alt="" /></a>
+                <a href="mailto:thiagosg.ti@gmail.com"><img src="https://api.iconify.design/logos:google-gmail.svg" alt="" /></a>
+                <a href="https://www.linkedin.com/in/thiago-sg/" target="blank"><img src="https://api.iconify.design/logos:linkedin-icon.svg" alt="" /></a>
+                <a href="https://wa.me/5532984582324" target="blank"><img src="https://api.iconify.design/logos:whatsapp-icon.svg" alt="" /></a>
             </footer>
 
         </aside>

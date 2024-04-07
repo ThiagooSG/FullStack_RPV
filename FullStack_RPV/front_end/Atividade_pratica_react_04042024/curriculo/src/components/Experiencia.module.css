@@ -2,6 +2,8 @@
     margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .comments > img {

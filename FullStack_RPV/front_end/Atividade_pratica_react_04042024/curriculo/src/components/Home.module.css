@@ -1,12 +1,3 @@
-.posts {
-    background: var(--gray-800);
-    border-radius: 8px;
-    padding: 2.5rem;
-}
-
-.posts + .posts{
-    margin-top: 2rem;
-}
 
 .content {
     line-height: 1.6;
@@ -29,17 +20,6 @@
     color: var(--green-300);
 }
 
-.posts > header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.posts > header time {
-    font-size: 0.875rem;
-    color: var(--gray-400);
-}
-
 .author {
     display: flex;
     align-items: center;
@@ -47,11 +27,16 @@
 }
 
 .author img {
+    margin-top: 20px;
     width: 3rem;
     height: 3rem;
     border-radius: 8px;
     border: 4px solid var(--gray-800);
     outline: 2px solid var(--green-500);
+}
+
+.authorInfo {
+    margin-top: 20px;
 }
 
 .authorInfo strong {
@@ -89,7 +74,7 @@
     border-radius: 8px;
     color: var(--gray-100);
     line-height: 1.6;
-    margin-top: 1rem;
+     margin-top: 1rem;
 }
 
 .commentsForm button {
@@ -119,5 +104,94 @@
 
 .commentsList {
     margin-top: 2rem;
+}
+
+.comments {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments > img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.commentsBox {
+    flex: 1;
+}
+
+.commentsContent {
+    background: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.commentsContent header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.authorAndTime strong {
+    display: block;
+    /*font-size: 0.875rem;*/
+    line-height: 1.6;
+}
+
+.authorAndTime time {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1.6;
+}
+
+.commentsContent header button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+}
+
+.commentsContent header button:hover {
+    color: var(--red-500);
+}
+
+.commentsContent p {
+    margin-top: 1rem;
+    color: var(--gray-300);
+}
+
+.commentsBox footer {
+    margin-top: 1rem;
+}
+
+.commentsBox footer button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    /*gap: 0.5rem;*/
+}
+
+.commentsBox footer button:hover {
+    color: var(--green-300);
+}
+
+.commentsBox footer button svg{
+    gap: 0.5rem;
+}
+
+.comments footer button span::before {
+    content: "\2022";
+    padding: 0 0.25rem;
 }
 
