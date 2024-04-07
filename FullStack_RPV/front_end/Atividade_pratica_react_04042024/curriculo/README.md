@@ -6,3 +6,6 @@ profissional.
 
 Aplique as alterações necessárias no template
 utilizado nas aulas para transforma-lo no seu currículo pessoal  
+
+osb: (ainda vou refatorar, tem codigo demais e pode ser melhorado)  
+  
