@@ -36,13 +36,6 @@ $ git clone https://github.com/ThiagooSG/team.git
 
 ```bash
 # Mudar para directório
-$ cd Entrega_projeto_ua_15042024/
-```
-
-#### Front-End
-
-```bash
-# Mudar para directório
 $ cd team/
 ```
 
