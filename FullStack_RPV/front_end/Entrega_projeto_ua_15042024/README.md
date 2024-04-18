@@ -6,7 +6,7 @@ Team é uma aplicação web para organização de equipes e times dentro de uma 
 
 O aplicativo permite que você adicione times com uma cor específica. Para cada time, você pode adicionar colaboradores com um nome, cargo e imagem. Você pode deletar colaboradores e mudar a cor de um time. O aplicativo organiza os colaboradores por time e exibe-os em cartões coloridos.
 
-<p align="center"><em>Confira o resultado em: <a href="https://reactgram-vitor.vercel.app/" target="_blank">reactgram-vitor.vercel.app</a></em></p>
+<p align="center"><em>Confira o resultado em: <a href="https://web-ua-team.netlify.app/" target="_blank">web-ua-team.netlify.app</a></em></p>
 
 
 ## :rocket: Techs
