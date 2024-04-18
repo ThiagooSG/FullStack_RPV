@@ -29,7 +29,7 @@ O aplicativo permite que você adicione times com uma cor específica. Para cada
 ### Clone o repositório
 
 ```bash
-$ git clone https://github.com/ThiagooSG/Entrega_projeto_ua_15042024
+$ git clone https://github.com/ThiagooSG/team.git
 ```
 
 ### Executar Projeto
