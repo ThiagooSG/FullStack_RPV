@@ -1,5 +1,5 @@
 
-## Atividade 24/04/2024
+## Atividades 24/04/2024
 
 1. Faça 30 exercicios JavaScript divididos em parte 1 e 2  
 
