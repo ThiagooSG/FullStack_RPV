@@ -7,4 +7,4 @@
 
 [Parte 2](https://github.com/ThiagooSG/FullStack_RPV/tree/main/FullStack_RPV/back_end/Atividades_24042024/Parte2)
 
-obs:(Concluindo a parte 2)  
+obs:(Embora concluído, ainda carece de alguns ajustes na segunda parte)  
