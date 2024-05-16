@@ -16,6 +16,11 @@ function calcularIMC() {
         return;
     }
 
+    if (peso == 0 || altura == 0) {
+        alert("O valor não pode ser zero.");
+        return;
+    }
+
     let imc = peso / (altura * altura);
 
     let classificacao = "";
