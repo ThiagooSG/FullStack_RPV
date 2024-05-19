@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classificação de Terreno</title>
+        <link rel="stylesheet" href="/terreno/css/style.css">
+    </head>
+    <body>
+        <h1>Classificação de Terreno</h1>
+    
+        <form id="formulario">
+            <label for="largura">Largura (em metros):</label>
+            <input type="number" id="largura" name="largura" required><br>
+    
+            <label for="comprimento">Comprimento (em metros):</label>
+            <input type="number" id="comprimento" name="comprimento" required><br>
+    
+            <button type="button" onclick="calcular()">Calcular</button>
+        </form>
+    
+        <div id="resultado"></div>
+    
+        <script src="/terreno/js/script.js"></script>
+    </body>
+    </html>

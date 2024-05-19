@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do alunoo</title>
+    <link rel="stylesheet" href="/dados_aluno/css/style.css">
+</head>
+<body>
+    <h1 class="titulo_h1">Dados do aluno</h1>
+
+    <form id="formulario">
+        <label for="nome">Nome do Aluno:</label>
+        <input type="text" id="nome" name="nome" placeholder="Nome do aluno" required><br>
+
+        <label for="matricula">Matrícula:</label>
+        <input type="text" id="matricula" name="matricula" placeholder="Digite a matrícula do aluno" required><br>
+
+        <label for="disciplina">Disciplina:</label>
+        <select id="disciplina" name="disciplina" required>
+            <option value="">Selecione</option>
+            <option value="Português">Português</option>
+            <option value="Matemática">Matemática</option>
+            <option value="Inglês">Inglês</option>
+            <option value="História">História</option>
+        </select><br>
+
+        <label for="nota">Nota:</label>
+        <input type="text" id="nota" name="nota" placeholder="Digite a nota do aluno" required><br>
+
+
+        <input class="btcadastro" id="enviar" type="button" value="Verificar Situação">
+    </form>
+    <div id="dadosCadastrados" style="display:none"></div>
+
+
+    <script src="/dados_aluno/js/script.js"></script>
+</body>
+</html>

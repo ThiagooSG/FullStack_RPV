@@ -1,0 +1,26 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url('/terreno/img/terreno-casa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #693528;
+}
+
+#formulario {
+    margin: 20px;
+}
+
+#largura, #comprimento {
+    margin-bottom: 10px;
+}
+ label, h1 {
+    color: aliceblue;
+ }
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: aliceblue;
+}
